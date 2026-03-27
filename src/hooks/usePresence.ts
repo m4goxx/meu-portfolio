@@ -15,6 +15,7 @@ export interface LanyardData {
     name: string;
     details: string;
     state: string;
+    application_id?: string;
     timestamps?: {
       start: number;
       end?: number;
